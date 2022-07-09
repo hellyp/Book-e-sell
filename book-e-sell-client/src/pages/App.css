@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+p,
+ul,
+li {
+    display: inline-block;
+}
+a, .link{
+    text-decoration: none;
+    color: black
+}
+input {
+    padding-left: 10px;
+    height: 30px;
+}
+button{
+    background-color: #f14d54;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+/* ----------------- CLASSES ---------------- */
+
+.main-container {
+    
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.pageTitle {
+    color: #414141;
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.pageTitle::after {
+    border: 2px solid #f14d54;
+}
+
+.inputlabel {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.inputfield {
+    display: block;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 30px;
+}
+.textarea{
+    display: block;
+    margin-bottom: 30px;
+    width: 50%;
+}
+.error-message{
+    margin-bottom: 10px;
+}
+.error-message span{
+    color: red;
+    font-style: italic;
+}

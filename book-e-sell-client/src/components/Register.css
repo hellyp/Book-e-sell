@@ -1,0 +1,54 @@
+.register-details-wrapper {
+    width: 70%;
+    margin: auto;
+}
+
+.r-hr {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.desc {
+    color: #838383;
+    font-size: small;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.name {
+    display: flex;
+}
+
+.name-left {
+    flex: 4;
+}
+
+.name-right {
+    flex: 4;
+}
+
+.r-label {
+    margin-bottom: 15px;
+}
+
+.register-details-wrapper input{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.password {
+    display: flex;
+}
+
+.pass-left {
+    flex: 5;
+}
+
+.pass-right {
+    flex: 5;
+}
+
+.registerbtn {
+    width: 150px;
+}

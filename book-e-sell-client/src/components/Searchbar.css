@@ -1,0 +1,86 @@
+.searchbar-wrapper {
+    /* display: flex; */
+    /* background-color: #e2e2e2; */
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+}
+
+.serachBox {
+    display: inline-block;
+    width: 600px;
+    height: 40px;
+    padding-left: 10px;
+    font-style: italic;
+    border: 1px solid rgb(180, 179, 179);
+    background-color: white;
+    border-radius: 5px;
+    /* margin: 10px; */
+    cursor: pointer;
+}
+.searchResults{
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    -webkit-box-shadow: 4px -2px 16px -11px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px -2px 16px -11px rgba(0,0,0,0.75);
+    box-shadow: 4px -2px 16px -11px rgba(0,0,0,0.75);
+}
+.searchbtn {
+    background-color: #80bf32;
+    height: 40px;
+    width: 129px;
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.cancleBtn {
+    background-color: #f14d54;
+    height: 40px;
+    width: 129px;
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.bookContainer{
+    display: flex;
+    padding: 10px;
+}
+.bookContainer:nth-child(odd){
+    background-color: #efefef;
+}
+.bookContainer:hover{
+    background-color:#343333;
+    color: white;
+}
+
+.bookContainer .left {
+    flex: 70%;
+}
+.bookContainer .right {
+    text-align: end;
+    flex: 30%;
+}
+.bookContainer p{
+    font-family: 'Anek Malayalam';
+    font-size: 18px;
+    display: block;
+}
+.addFromSearch{
+    color: #f14d54;
+    cursor: pointer;
+}
+.addFromSearch:hover{
+    color: #b11b23;
+}

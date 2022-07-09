@@ -1,0 +1,73 @@
+.box {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 500px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.left {
+    flex: 5;
+}
+
+.title {
+    font-size: 25px;
+    color: #414141;
+    margin-bottom: 20px;
+}
+
+.hr {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    color: #838383;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.listItems {
+    margin-left: 20px;
+    /* list-style-type: disc; */
+}
+
+.listItem {
+    margin-bottom: 15px;
+    font-size: large;
+    list-style-type: circle;
+}
+
+
+.right {
+    flex: 5;
+}
+
+.inputlabel {
+    display: block;
+    margin-bottom: 15px;
+    font-size: large;
+}
+
+.inputfield {
+    display: block;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 30px;
+}
+.createAccountBtn {
+    width: 220px;
+    height: 45px;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.loginbtn {
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    bottom: 0%;
+}
